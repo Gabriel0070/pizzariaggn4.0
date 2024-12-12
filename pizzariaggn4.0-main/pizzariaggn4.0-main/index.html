@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang='pt-br'>
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <meta charset='utf-8'>
+	   <title> Pizzaria Tal </title>
+	   <link rel='stylesheet' type= 'text/css' href='recursos/css/estilo.css'>
+	 
+   </head>
+   
+   <body>
+       <header id='header'>
+		<div  id="logo">
+
+			<img src="recursos/imagens/pizza.png" alt="pizza">
+			
+	        <h1> Pizzaria GGN </h1>
+			<h3>A Melhor Pizzaria da Cidade</h3>
+			</div>
+				
+			
+			<nav id='navegação'>
+				<a class='link-cabecalho' href='index.html'> Home </a>
+				<a class='link-cabecalho' href='pizzas.html'> Pizzas </a>
+				<a class='link-cabecalho' href='bebidas.html'> Bebidas </a>
+				 <img src="recursos/imagens/carrinho.png" alt="Carrinho" onclick="toggleCart()" >
+
+				 
+ 
+				<div id="cartDropdown" class="cart-dropdown">
+				 <h3>Seu Carrinho</h3>
+				 <div id="cartItemsList"></div>
+				 <button onclick="window.location.href='endereco.html'">Finalizar Compra</button>
+ 				</div>
+			</nav>
+	   </header>
+	      <section class='promocao'>
+	        <h2> PROMOÇÕES </h2>
+			<p> De Segunda a Sexta Rodizio de Pizzas Por R$45,00.  <p>
+			<p> Aproveite Com a Familha Essa Oferta. </p>
+			<section id="produto">
+				<div class="saboreshome">		
+						<img src="recursos/imagens/PP.jpg">
+						<p> pizza portuguesa </p>
+						<p> 45,00 Reais </p>
+						<button type="button">PEÇA AGORA</button>
+				</div>	
+				<div class="saboreshome">		
+						<img src="recursos/imagens/cal.jpeg">
+						<p> pizza de calabresa</p>
+						<p> 45,00 Reais </p>
+						<button type="button">COMPRE AGORA</button>
+				</div>
+				<div class="saboreshome">		
+						<img src="recursos/imagens/FP.jpg">
+						<p> pizza de frango <p>
+						 <p></p>
+						<p> 45,00 Reais </p>
+						
+						<button type="button">COMPRE AGORA</button>
+				</div>
+				<div class="saboreshome">		
+						<img src="recursos/imagens/min.jpeg">
+						<p> pizza mini </p>
+						<p> 45,00 Reais </p>
+						<button type="button">COMPRE AGORA</button>
+				</div>
+				
+						</section>
+	   </section>
+	   
+	   
+		<script type="text/javascript" src='recursos/js/script.js'></script>
+	</body>
+   
+</html>
