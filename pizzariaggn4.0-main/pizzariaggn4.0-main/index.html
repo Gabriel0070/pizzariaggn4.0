@@ -30,7 +30,7 @@
 				<div id="cartDropdown" class="cart-dropdown">
 				 <h3>Seu Carrinho</h3>
 				 <div id="cartItemsList"></div>
-				 <button onclick="window.location.href='endereco.html'">Finalizar Compra</button>
+				 <button id="buttonfinalizarcompra"onclick="window.location.href='endereco.html'">Finalizar Compra</button>
  				</div>
 			</nav>
 	   </header>
@@ -43,28 +43,33 @@
 						<img src="recursos/imagens/PP.jpg">
 						<p> pizza portuguesa </p>
 						<p> 45,00 Reais </p>
-						<button type="button">PEÇA AGORA</button>
+						<button onclick="addToCart({name:'Pizza de portuguesa', price: 45.00})">COMPRE AGORA</button>
+</div>
 				</div>	
 				<div class="saboreshome">		
 						<img src="recursos/imagens/cal.jpeg">
 						<p> pizza de calabresa</p>
 						<p> 45,00 Reais </p>
-						<button type="button">COMPRE AGORA</button>
-				</div>
+						<button onclick="addToCart({name:'Pizza de calabresa', price: 45.00})">COMPRE AGORA</button>
+</div>
+					
+				
 				<div class="saboreshome">		
 						<img src="recursos/imagens/FP.jpg">
 						<p> pizza de frango <p>
 						 <p></p>
 						<p> 45,00 Reais </p>
+					<button onclick="addToCart({name:'Pizza de frango', price: 45.00})">COMPRE AGORA</button>
+</div>
 						
-						<button type="button">COMPRE AGORA</button>
-				</div>
+				
 				<div class="saboreshome">		
 						<img src="recursos/imagens/min.jpeg">
 						<p> pizza mini </p>
 						<p> 45,00 Reais </p>
-						<button type="button">COMPRE AGORA</button>
-				</div>
+						<button onclick="addToCart({name:'Pizza mini', price: 45.00})">COMPRE AGORA</button>
+</div>
+
 				
 						</section>
 	   </section>

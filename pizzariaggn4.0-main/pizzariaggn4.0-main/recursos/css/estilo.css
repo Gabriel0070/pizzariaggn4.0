@@ -267,20 +267,25 @@ input, textarea, select {
     margin-top: 0;
 }
 
-.cart-dropdown button {
-    background-color: #4CAF50;
-    color: white;
+.cart-dropdown #buttonfinalizarcompra{
+    
+    color: rgb(8, 8, 7);
     padding: 10px;
     border: none;
     cursor: pointer;
     width: 100%;
     margin-top: 10px;
+	border-radius: 30px;
+	
 }
 
-.cart-dropdown button:hover {
-    background-color: #45a049;
+.cart-dropdown #buttonfinalizarcompra:hover {
+    background-color: #2ac70a;
+	
 }
-
+.cart-dropdown button:hover{
+	background-color: #2ac70a;
+}
 
 .cart-dropdown {
 	color: black;
@@ -294,7 +299,8 @@ button {
     background: none;
     color: red;
     cursor: pointer;
-    padding: 0; /* Remove o preenchimento */
+    padding: 0; /* 
+	o preenchimento */
 }
 
 button:hover {

@@ -26,16 +26,18 @@ function displayCartInNavbar() {
 
     cart.forEach((item, index) => {
         let itemElement = document.createElement('div');
-        itemElement.innerHTML = `
+        itemElement.innerHTML = ` 
+        
             <p>${item.name} - R$ ${item.price.toFixed(2)}
             <button onclick="removeFromCart(${index})"
-             style="border-style: 
-             outset; background: red;
+             style= "
+             color:red;
              cursor: pointer;
-             width: 20px; 
-             height: 20px; 
-             border-radius: 50%; 
-             text-align: center;">
+             heigth:30px;
+             width:30px; 
+             border-radius: 30px;
+             text-align: center;" >
+              <img src ="recursos/imagens/x.png" >
              </button></p>`;
         cartItemsList.appendChild(itemElement);
     });
